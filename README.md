@@ -26,10 +26,10 @@ Co-author on a paper accepted at **ICIMCIS 2026**, co-sponsored by IEEE — name
 
 ## Tools I actually use
 
-**Languages** Python · JavaScript · Java · C · SQL
-**Frontend** React · React Router · HTML · CSS · Figma
-**Backend & data** Django · Flask · REST APIs · PostgreSQL · MySQL · Supabase
-**ML & CV** scikit-learn · OpenCV · NumPy · pandas
+**Languages** Python · JavaScript · Java · C · SQL\
+**Frontend** React · React Router · HTML · CSS · Figma\
+**Backend & data** Django · Flask · FastAPI · REST APIs · PostgreSQL · MySQL · Supabase\
+**ML & CV** scikit-learn · OpenCV · NumPy · pandas\
 **Deploy** Vercel · Render · Git & GitHub
 
 ## Reach me
