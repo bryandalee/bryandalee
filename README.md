@@ -2,9 +2,9 @@
 
 **Computer Science @ BINUS University** · AI specialization · Jakarta, Indonesia · 2024–2028
 
-I build web applications and machine-learning systems, and I put them online. Every project below has a demo you can click — not just a repository.
+I build web applications and machine-learning systems, and I put them online. Every project below has a live demo or a recorded walkthrough — not just a repository.
 
-Outside class I run operations at **Pelita Cargo**, a China-to-Jakarta freight forwarder. That is where the idea for the shipment tracker came from.
+Outside class I run operations at **Pelita Cargo**, a China-to-Jakarta freight forwarder. That is where the ideas for the shipment tracker and the chat assistant came from.
 
 > **Open to a Software Engineering internship** — frontend, backend, or AI/ML · Feb 2027 – Jan 2028
 
@@ -14,6 +14,7 @@ Outside class I run operations at **Pelita Cargo**, a China-to-Jakarta freight f
 
 | Project | What it does | Built with | Live |
 | --- | --- | --- | --- |
+| **[Pelita Chat Assistant](https://github.com/bryandalee/llm-pelita)** | Reads WhatsApp chats from cargo customers (Indonesian, Mandarin, English) and the product photos they send, extracts the order — goods, weight, size, CBM, destination — estimates the price from the real rate card, and drafts the reply. Runs locally on a laptop with a 9B model. Evaluated on 61 real, anonymized chats over two rounds: customer-stated fields ~90%, tariff category 35% → 53% on a held-out set after encoding the admin's rules. Solo project. | Python · Ollama (Qwen 3.5 9B) · Pydantic · Streamlit | [Demo (GIF)](https://github.com/bryandalee/llm-pelita#readme) |
 | **[Pelita Track](https://github.com/bryandalee/pelita-track-dashboard)** | Shipment tracking dashboard for China–Indonesia freight forwarding. Customers follow a waybill through six stages; admins add shipments and move them forward. The cost estimator uses real all-in rates — per CBM for sea, per kg for air. | React · Vite · Supabase · PostgreSQL | [Demo](https://pelitacargo-track-dashboard.vercel.app/) |
 | **[AlkesTrack](https://github.com/bryandalee/alkestrack)** | Turns a constantly-edited Excel file into a live monitoring system for medical equipment distribution: role-based access, import with preview, automatic 8-stage status tracking. | Django · Python · SQL | [Demo](https://bryandalee.pythonanywhere.com/) |
 | **[GastroTMB](https://github.com/bryandalee/GastroTMB-TMB-Prediction)** | Predicts Tumor Mutational Burden status in gastric cancer using a Random Forest built from five merged cBioPortal studies. Balanced accuracy 0.82 on a held-out test set, against 0.50 for a majority-class baseline. Solo project. | Flask · scikit-learn · pandas | [Demo](https://gastro-tmb-tmb-prediction.vercel.app/) |
@@ -30,6 +31,7 @@ Co-author on a paper accepted at **ICIMCIS 2026**, co-sponsored by IEEE — name
 **Frontend** React · React Router · HTML · CSS · Figma\
 **Backend & data** Django · Flask · FastAPI · REST APIs · PostgreSQL · MySQL · Supabase\
 **ML & CV** scikit-learn · OpenCV · NumPy · pandas\
+**LLM** Ollama · structured output (Pydantic) · prompt & retrieval evaluation\
 **Deploy** Vercel · Render · Git & GitHub
 
 ## Reach me
